@@ -1,0 +1,40 @@
+name: Nighthawk
+main: com.orinteractive.nighthawk.Nighthawk
+version: 0.1
+author: Nerdic Viking
+website: http://orinteractive.com/nighthawk
+
+commands:
+    nhcc:
+        description: Initializes the currency for the server
+        usage: /<command> [name]
+        permission: nighthawk.currencypermission
+        permission-message: You aren't authorized to create a currency!
+
+    nhct:
+        description: Sets the time required to earn currency
+        usage: /<command> [minutes] [amount]
+        permission: nighthawk.currencypermission
+        permission-message: You aren't authorized to edit a currency!
+    
+    nhcjp:
+        description: Sets the amount of currency for the dice jackpot
+        usage: /<command> [minutes] [amount]
+        permission: nighthawk.currencypermission
+        permission-message: You aren't authorized to edit a currency!
+    
+    nhcs:
+        description: Sets the amount of currency earned when a new player joins
+        usage: /<command> [amount]
+        permission: nighthawk.currencypermission
+        permission-message: You aren't authorized to edit a currency!
+    
+    nhcqw:
+        description: Creates a QuickWarp
+        usage: /<command> [name] [x] [y] [z]
+        permission: nighthawk.quickwarppermission
+        permission-message: You aren't authorized to create a QuickWarp!
+    
+    nhmoney:
+        description: Tells how much money you have
+        usage: /<command>

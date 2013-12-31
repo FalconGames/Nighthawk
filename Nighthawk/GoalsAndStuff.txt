@@ -1,0 +1,6 @@
+Goals:
+======
+
+-Serialization!
+-More commands!
+-Player shops (with inventories)!
